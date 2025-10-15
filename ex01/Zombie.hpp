@@ -1,26 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   Zombie.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/15 16:47:41 by abidaux           #+#    #+#             */
-/*   Updated: 2025/10/15 19:01:25 by abidaux          ###   ########.fr       */
+/*   Created: 2025/10/15 18:58:44 by abidaux           #+#    #+#             */
+/*   Updated: 2025/10/15 19:57:04 by abidaux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../Zombie.hpp"
+#pragma once
 
-int main()
+#include <string>
+#include <iostream>
+#include <stdlib.h>
+
+struct Zombie
 {
-	std::cout << "Creating a Zombie on the heap:" << std::endl;
-	Zombie *heap1 = newZombie("heap1");
-	heap1->announce();
-	delete heap1;
+	public:
+		Zombie(void);
+		~Zombie(void);
+		void announce(void) const;
+		void setName(std::string name);
+	private:
+		std::string _name;
+};
 
-	std::cout << "Creating a Zombie on the stack:" << std::endl;
-	randomChump("stack1");
-
-	return (0);
-}
+Zombie* zombieHorde( int N, std::string name );

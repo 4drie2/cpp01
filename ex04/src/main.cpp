@@ -6,7 +6,7 @@
 /*   By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 16:49:48 by abidaux           #+#    #+#             */
-/*   Updated: 2025/10/16 20:29:03 by abidaux          ###   ########.fr       */
+/*   Updated: 2025/10/18 17:22:48 by abidaux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ int main(int ac, char **av)
 	}
 	output_fstream << "";
 
-	//replace
+	// duplicate & modify
 	std::string	line;
 	std::size_t		index;
 	while (std::getline(input_fstream, line))

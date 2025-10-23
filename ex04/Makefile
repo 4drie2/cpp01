@@ -6,7 +6,7 @@
 #    By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/16 16:48:11 by abidaux           #+#    #+#              #
-#    Updated: 2025/10/16 19:30:12 by abidaux          ###   ########.fr        #
+#    Updated: 2025/10/23 20:24:21 by abidaux          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ NAME		= replace
 # Folders
 SRC_DIR		= src
 OBJ_DIR		= obj
-INC_DIR		= includes
+INC_DIR		= .
 
 # Sources
 SRC_FILES	=	$(SRC_DIR)/main.cpp \

@@ -6,7 +6,7 @@
 #    By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/15 20:39:10 by abidaux           #+#    #+#              #
-#    Updated: 2025/10/16 14:19:25 by abidaux          ###   ########.fr        #
+#    Updated: 2025/10/23 20:22:24 by abidaux          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,16 +20,12 @@ NAME		= htib
 # Folders
 SRC_DIR		= src
 OBJ_DIR		= obj
-INC_DIR		= includes
 
 # Sources
 SRC_FILES	=	$(SRC_DIR)/main.cpp \
 
 # Object files
 OBJ_FILES	= $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SRC_FILES))
-
-# Include headers
-INCLUDES	= -I$(INC_DIR)
 
 # Default rule
 all: $(NAME)
@@ -43,7 +39,7 @@ $(NAME): $(OBJ_FILES)
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp | $(OBJ_DIR)
 	@mkdir -p $(OBJ_DIR)
 	@echo "Compiling $<..."
-	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 # Ensure obj/ exists
 $(OBJ_DIR):

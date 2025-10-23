@@ -6,11 +6,11 @@
 /*   By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 18:14:37 by abidaux           #+#    #+#             */
-/*   Updated: 2025/10/23 19:58:50 by abidaux          ###   ########.fr       */
+/*   Updated: 2025/10/23 20:28:24 by abidaux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Harl.hpp"
+#include "../Harl.hpp"
 
 int get_level_index(const std::string& level) {
 	const std::string   levels[4] = {"DEBUG", "INFO", "WARNING", "ERROR"};

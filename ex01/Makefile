@@ -6,7 +6,7 @@
 #    By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/15 18:53:53 by abidaux           #+#    #+#              #
-#    Updated: 2025/10/15 19:46:48 by abidaux          ###   ########.fr        #
+#    Updated: 2025/10/23 20:20:53 by abidaux          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ NAME		= zombiehorde
 # Folders
 SRC_DIR		= src
 OBJ_DIR		= obj
-INC_DIR		= includes
+INC_DIR		= .
 
 # Sources
 SRC_FILES	=	$(SRC_DIR)/main.cpp \

@@ -6,7 +6,7 @@
 #    By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/18 18:13:30 by abidaux           #+#    #+#              #
-#    Updated: 2025/10/23 19:45:43 by abidaux          ###   ########.fr        #
+#    Updated: 2025/10/23 20:28:19 by abidaux          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ NAME		= harlFilter
 # Folders
 SRC_DIR		= src
 OBJ_DIR		= obj
-INC_DIR		= includes
+INC_DIR		= .
 
 # Sources
 SRC_FILES	=	$(SRC_DIR)/main.cpp \

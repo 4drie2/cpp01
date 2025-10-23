@@ -6,7 +6,7 @@
 #    By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/16 15:34:16 by abidaux           #+#    #+#              #
-#    Updated: 2025/10/16 15:35:21 by abidaux          ###   ########.fr        #
+#    Updated: 2025/10/23 20:22:55 by abidaux          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ NAME		= ex03
 # Folders
 SRC_DIR		= src
 OBJ_DIR		= obj
-INC_DIR		= includes
+INC_DIR		= include
 
 # Sources
 SRC_FILES	=	$(SRC_DIR)/main.cpp \

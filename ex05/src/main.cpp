@@ -6,11 +6,11 @@
 /*   By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 18:14:37 by abidaux           #+#    #+#             */
-/*   Updated: 2025/10/23 19:35:47 by abidaux          ###   ########.fr       */
+/*   Updated: 2025/10/23 20:25:25 by abidaux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Harl.hpp"
+#include "../Harl.hpp"
 
 int main() {
 	Harl harl;

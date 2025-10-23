@@ -6,11 +6,11 @@
 /*   By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 16:49:48 by abidaux           #+#    #+#             */
-/*   Updated: 2025/10/18 18:03:20 by abidaux          ###   ########.fr       */
+/*   Updated: 2025/10/23 20:24:19 by abidaux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "main.hpp"
+#include "../main.hpp"
 
 bool parseArguments(int ac, char **av, std::string &filename, std::string &s1, std::string &s2) {
 	if (ac != 4) {

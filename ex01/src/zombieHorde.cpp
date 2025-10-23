@@ -1,25 +1,12 @@
-/* *********#include "../Zombie.hpp"
-
-Zombie* zombieHorde( int N, std::string name )
-{
-	if (N <= 0)
-		return (0);
-
-	Zombie *horde = new Zombie[N];
-
-	for (int i = 0; i < N; i++)
-		horde[i].setName(name);
-
-	return (horde);
-}****************************************************** */
+/* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   zombieHorde.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/15 19:04:11 by abidaux           #+#    #+#             */
-/*   Updated: 2025/10/15 19:39:49 by abidaux          ###   ########.fr       */
+/*   Created: 2025/10/23 20:35:06 by abidaux           #+#    #+#             */
+/*   Updated: 2025/10/23 20:35:14 by abidaux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

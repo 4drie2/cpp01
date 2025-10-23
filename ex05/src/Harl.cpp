@@ -6,7 +6,7 @@
 /*   By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 18:14:34 by abidaux           #+#    #+#             */
-/*   Updated: 2025/10/23 19:32:42 by abidaux          ###   ########.fr       */
+/*   Updated: 2025/10/23 20:09:13 by abidaux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,7 @@
 
 Harl::Harl() {}
 
-Harl::~Harl() {
-	std::cout <<"Tchao (ಠ益ಠ)" << std::endl;
-}
+Harl::~Harl() {}
 
 void	Harl::complain(std::string level)
 {
@@ -46,7 +44,7 @@ void	Harl::info() {
 
 void	Harl::warning() {
 	std::cout << "[ WARNING ]" << std::endl;
-	std::cout << "I think I deserve to have some extra bacon for free. I’ve been coming for years whereas you started working here since last month." << std::endl;
+	std::cout << "I think I deserve to have some extra bacon for free. I’ve been coming for years whereas you started working here just last month." << std::endl;
 }
 
 void	Harl::error() {
